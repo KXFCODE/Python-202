@@ -1,0 +1,2 @@
+[Thu Jan 11 20:56:43.139619 2024] [cgi:error] [pid 5236] [client ::1:55752] AH01215: (13)Permission denied: exec of '/Users/maksim/Projects/Python/Python-202/cgi/index.py' failed: /Users/maksim/Projects/Python/Python-202/cgi/index.py
+[Thu Jan 11 20:56:43.140741 2024] [cgi:error] [pid 5236] [client ::1:55752] End of script output before headers: index.py

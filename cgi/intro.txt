@@ -1,0 +1,14 @@
+<VirtualHost *:80>
+ServerAdmin webmaster@localhost
+DocumentRoot "/Users/maksim/Projects/Python/Python-202/cgi"
+ServerName py202.loc
+ServerAlias www.py202.loc
+ErrorLog "/Users/maksim/Projects/Python/Python-202/cgi/error.log"
+CustomLog "/Users/maksim/Projects/Python/Python-202/cgi/access.log" common
+<Directory "/Users/maksim/Projects/Python/Python-202/cgi">
+AllowOverride All
+Options -Indexes +ExecCGI
+AddHandler cgi-script .py
+Require all granted
+</Directory>
+</VirtualHost>

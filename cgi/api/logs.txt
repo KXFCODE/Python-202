@@ -1,0 +1,4 @@
+2023-12-25 14:29:49 - INFO - GET works ()
+2023-12-25 14:29:49 - INFO - package: mysql.connector.plugins ('mysql.connector.plugins',)
+2023-12-25 14:29:49 - INFO - plugin_name: mysql_native_password ('mysql_native_password',)
+2023-12-25 14:29:49 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin ('MySQLNativePasswordAuthPlugin',)
